@@ -52,7 +52,7 @@ const listenToDropDownChange = function(){
 };
 
 const getData = function(days){
-    handleData("https://eonet.sci.gsfc.nasa.gov/api/v2.1/events?days="+days, showData);
+    handleData("https://cors-anywhere.herokuapp.com/https://eonet.sci.gsfc.nasa.gov/api/v2.1/events?days="+days, showData);
 };
 
 
